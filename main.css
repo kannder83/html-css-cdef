@@ -1,0 +1,216 @@
+/* Import */
+
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;700&display=swap");
+
+:root {
+  /* Paleta de colores */
+  --color-base-01: #8ecae6;
+  --color-base-02: #219ebc;
+  --color-base-03: #023047;
+  --color-base-04: #ffb703;
+  --color-base-05: #fb8500;
+  /* Color de texto */
+  --text-white: white;
+  --text-black: black;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Comfortaa", cursive;
+}
+
+/* Seccion del header */
+
+.header_top {
+  /* border: 1px red solid; */
+  width: 100%;
+  height: 7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--color-base-03);
+}
+
+.container {
+  width: 1200px;
+  /* display: flex;
+  justify-content: center; */
+}
+
+.box-header {
+  display: flex;
+  justify-content: space-between;
+  /* border: 1px red solid; */
+}
+
+.header_title_left {
+  font-size: 3rem;
+  color: var(--text-white);
+}
+
+.header_menu_list {
+  list-style: none;
+  display: inline-block;
+}
+
+.header_menu_list li {
+  display: inline-block;
+  padding: 0.5rem;
+}
+
+.header_menu_link {
+  text-decoration: none;
+  font-size: 2rem;
+  color: var(--text-white);
+}
+
+/* Seccion de main */
+
+main {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--color-base-01);
+}
+
+.box-main {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-title {
+  color: var(--text-black);
+  letter-spacing: 0.5rem;
+  text-align: center;
+}
+
+.main-title h1 {
+  text-transform: uppercase;
+  font-size: 3.5rem;
+}
+
+.main-title h2 {
+  margin-top: 0.5rem;
+  padding-top: 0.8rem;
+  border-top: 2px white solid;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+}
+
+/* Seccion de Clases */
+
+.section-class {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--color-base-02);
+}
+
+.box-section-class {
+  border: 5px var(--color-base-04) solid;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.box-section-class .box-class-left {
+  width: 50%;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-section-class .box-class-left h3 {
+  font-size: 4rem;
+}
+
+.box-section-class .box-class-right {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.box-section-class .box-class-right h4 {
+  width: 100%;
+  color: var(--text-white);
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  border-bottom: 3px solid white;
+}
+
+.box-class-right ol {
+  list-style: none;
+  width: 100%;
+}
+
+.box-class-right ol li {
+  margin: 1rem;
+}
+
+.box-class-right ol li a {
+  color: var(--text-black);
+  text-decoration: none;
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.box-class-right ol li a:hover {
+  color: white;
+  background: var(--color-base-05);
+  border-radius: 2rem;
+}
+
+/* Seccion del footer */
+
+footer {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--color-base-03);
+}
+
+.box-footer {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.box-footer p {
+  text-align: center;
+  font-size: 1.8rem;
+  color: var(--text-white);
+}
+.box-footer a {
+  text-decoration: none;
+  color: var(--text-white);
+  transition: all 0.3s ease-in-out;
+}
+
+.box-footer a:hover {
+  background: var(--color-base-05);
+  color: var(--text-black);
+  border-radius: 0.5rem;
+}
