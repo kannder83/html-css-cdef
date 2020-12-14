@@ -1,0 +1,135 @@
+:root {
+  /* Paleta de Colores: */
+  --color-option-1: #177e89;
+  --color-option-2: #084c61;
+  --color-option-3: #db3a34;
+  --color-option-4: #ffc857;
+  --color-option-5: #323031;
+  --color-option-back-1: #413f40;
+  /* Colores de texto */
+  --font-color-primary: white;
+  --font-color-second: black;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+/* Se limita el container de la página */
+.container {
+  width: 100vw;
+  max-width: 100rem;
+  min-width: 50rem;
+  margin: 0 auto;
+}
+
+/* Se configura el header */
+.header-box {
+  width: 100%;
+  min-height: 10vh;
+  padding: 0 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--color-option-5);
+}
+
+/* El logo del header */
+.header-box .header-logo-top {
+  padding: 1rem;
+  border-radius: 1rem;
+  background-color: var(--color-option-back-1);
+}
+
+.header-box .header-logo-top a {
+  text-decoration: none;
+  color: var(--font-color-primary);
+  font-size: 2rem;
+}
+
+/* el menu de navegacion del header */
+
+.header-box .header-nav-top ul {
+  list-style: none;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  background-color: var(--color-option-back-1);
+}
+
+.header-box .header-nav-top ul li {
+  display: inline-block;
+  padding: 0 0.8rem;
+}
+
+.header-box .header-nav-top ul li a {
+  text-decoration: none;
+  color: var(--font-color-primary);
+  font-size: 2rem;
+}
+
+/* Configuración menu de la izquierda */
+.box-main-section {
+  width: 100%;
+  min-height: 80vh;
+  display: flex;
+}
+
+.box-main-section .main-menu-left {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-content: center;
+  background-color: var(--color-option-2);
+}
+
+.menu-box-option {
+  width: 70%;
+  min-height: 15vh;
+  margin: 1.5rem auto;
+  border-radius: 2rem;
+  position: relative;
+  background-color: var(--color-option-3);
+}
+
+.menu-box-option p {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  font-size: 2rem;
+  color: var(--font-color-primary);
+}
+/* configuración main de la derecha */
+
+.main-container-right {
+  width: 70%;
+  background-color: var(--color-option-4);
+}
+
+/* configuración del footer */
+.box-footer {
+  width: 100%;
+  min-height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-option-1);
+}
+
+.box-footer p {
+  color: var(--font-color-primary);
+  font-size: 2rem;
+}
+
+.box-footer p a {
+  text-decoration: none;
+  color: var(--font-color-primary);
+  border-radius: 1rem;
+  padding: 0.5rem;
+  background-color: var(--color-option-back-1);
