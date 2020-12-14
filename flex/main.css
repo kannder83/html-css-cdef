@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+.container {
+  border: 0.3rem solid black;
+  display: flex;
+  /* Flex-wrap: wrap - permite que los elementos se acomeden de forma
+  automatica en la medida que disminuye el width. */
+  flex-wrap: wrap;
+  /* El espacio entre contenedores y los border puede ser el mimso con el justify-content: space-evenly */
+  justify-content: space-evenly;
+}
+
+.box {
+  width: 10rem;
+  height: 10rem;
+}
+
+.box1 {
+  background-color: blue;
+}
+
+.box2 {
+  background-color: #3b3bff;
+}
+
+.box3 {
+  background-color: #8d8dfa;
+}
+
+.box4 {
+  background-color: #6f6fc5;
+}
+
+.box5 {
+  background-color: #3f3f61;
+}
+
+.box6 {
+  background-color: #383847;
+}
