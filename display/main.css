@@ -7,3 +7,28 @@
 html {
   font-size: 62.5%;
 }
+
+p,
+span,
+li {
+  font-size: 3rem;
+}
+
+.block-element {
+  background-color: #7463df;
+  margin: 1rem;
+  padding: 2rem;
+}
+
+.nav {
+  background-color: #6e4281;
+  padding: 2rem;
+  list-style: none;
+  text-align: center;
+}
+
+.nav li {
+  display: inline-block;
+  margin: 1rem 0;
+  padding: 0 2rem;
+}
