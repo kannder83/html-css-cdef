@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+.container {
+  border: 0.3rem solid black;
+  display: flex;
+  /* alinea el contenido al centro */
+  /* align-items: center; */
+  /* hace que los elementos tomen todo
+  el height del contenedor padre. */
+  /* align-items: stretch; */
+  /* hace que los elementos tomen
+  el height del texto interno */
+  /* align-items: baseline; */
+  /* height: 50vh; */
+  flex-wrap: wrap;
+}
+
+.box {
+  /* width: 10rem; */
+  height: 10rem;
+  /* Permite que los elementos se vayan acomodando en la pantalla. */
+  flex-basis: 10rem;
+  /* hace que se ocupe el campo de pantalla para ir rellenando espacios. */
+  flex-grow: 1;
+}
+
+.box1 {
+  background-color: blue;
+  /* Cambia el orden de los elementos */
+  /* order: 1; */
+  /* flex-grow: 1; */
+}
+
+.box2 {
+  background-color: #3b3bff;
+  /* flex-grow: 1; permite crecer al elemento hasta
+  completar los espacios vacios del contenedor padre. */
+  /* flex-grow: 1; */
+}
+
+.box3 {
+  background-color: #8d8dfa;
+}
+
+.box4 {
+  background-color: #6f6fc5;
+}
+
+.box5 {
+  background-color: #3f3f61;
+}
+
+.box6 {
+  background-color: #383847;
+}
