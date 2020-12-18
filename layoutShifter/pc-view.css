@@ -1,0 +1,16 @@
+.container {
+  width: 100rem;
+}
+.content-left {
+  width: 50%;
+}
+.content-right {
+  width: 50%;
+}
+.fz-full {
+  font-size: var(--font-doublefull);
+}
+
+.fz-var {
+  font-size: var(--font-big);
+}

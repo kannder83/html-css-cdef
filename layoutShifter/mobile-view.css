@@ -1,0 +1,8 @@
+.cell-md {
+  width: 50%;
+  min-height: 20vh;
+}
+
+.fz-var {
+  font-size: var(--font-sm);
+}

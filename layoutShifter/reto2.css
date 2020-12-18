@@ -208,6 +208,10 @@ a {
 
 /* ------------------- Tamaños de texto */
 
+.fz-var {
+  font-size: var(--font-small);
+}
+
 .fz-small {
   font-size: var(--font-small);
 }
@@ -229,14 +233,14 @@ a {
 }
 
 /* ------------------- @media */
-@media (min-width: 420px) {
+/* @media (min-width: 420px) {
   .cell-md {
     width: 50%;
     min-height: 20vh;
   }
-}
+} */
 
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
   .content-right {
     width: 100%;
   }
@@ -263,4 +267,4 @@ a {
   .fz-full {
     font-size: var(--font-doublefull);
   }
-}
+} */

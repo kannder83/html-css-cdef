@@ -1,0 +1,15 @@
+.content-right {
+  width: 100%;
+}
+.cell-lg {
+  width: 50%;
+  min-height: 20vh;
+}
+.cell-full {
+  width: 100%;
+  min-height: 20vh;
+}
+
+.fz-var {
+  font-size: var(--font-medium);
+}
