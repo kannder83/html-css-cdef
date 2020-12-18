@@ -1,0 +1,266 @@
+:root {
+  /* Paleta de colores: */
+  --color-one: #ebf5df;
+  --color-two: #bad4aa;
+  --color-three: #d4d4aa;
+  --color-four: #edb458;
+  --color-five: #e8871e;
+  /* font size */
+  --font-small: 1rem;
+  --font-sm: 1.8rem;
+  --font-medium: 3rem;
+  --font-big: 5rem;
+  --font-title: 3.5rem;
+  --font-full: 8rem;
+  --font-doublefull: 16rem;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+/* --------------------------------- Contenedor: */
+
+.container {
+  /* border: 1px red solid; */
+  margin: 0 auto;
+}
+
+/* --------------------------------- Header: */
+
+.box-header {
+  width: 100%;
+  min-height: 5vh;
+  padding: 0 0.8rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.box-logo {
+  /* border: 1px solid red; */
+  display: inherit;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.box-logo .logo-branch {
+  font-size: var(--font-medium);
+  color: black;
+}
+
+.box-logo h3 {
+  font-size: var(--font-medium);
+}
+
+.menu-top ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 0 0.6rem;
+}
+
+.menu-top ul li a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: black;
+  font-size: var(--font-small);
+}
+
+/* --------------------------------- Seccion main */
+
+.title-one {
+  color: var(--color-three);
+  text-transform: capitalize;
+}
+.title-two {
+  color: var(--color-two);
+  font-style: italic;
+  text-decoration: underline;
+}
+
+.box-main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.content-left {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.content-right {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cell {
+  width: 100%;
+  min-height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* --------------------------------- Seccion footer */
+.box-footer {
+  width: 100%;
+  min-height: 15vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-footer p,
+a {
+  text-decoration: none;
+  color: var(--color-one);
+}
+/* --------------------------------- Tonos de fondo */
+
+.bg-color-solid-four {
+  background-color: var(--color-four);
+}
+
+.bg-color-one {
+  background-image: linear-gradient(
+    180deg,
+    #5d6366 0,
+    #415460 25%,
+    #1f4459 50%,
+    #003553 75%,
+    #00264d 100%
+  );
+}
+
+.bg-color-two {
+  background-image: linear-gradient(
+    180deg,
+    #ffffa7 0,
+    #ffffa4 16.67%,
+    #eaffa1 33.33%,
+    #d5f29d 50%,
+    #c1e499 66.67%,
+    #afd896 83.33%,
+    #a0cd93 100%
+  );
+}
+
+.bg-color-three {
+  background-image: radial-gradient(
+    circle at 50% -20.71%,
+    #ffffe7 0,
+    #f0eccb 25%,
+    #d4d4aa 50%,
+    #b7bc8b 75%,
+    #9da972 100%
+  );
+}
+
+.bg-color-four {
+  background-image: radial-gradient(
+    circle at 50% -20.71%,
+    #ffe78e 0,
+    #fdd076 25%,
+    #edb458 50%,
+    #dd983c 75%,
+    #d28127 100%
+  );
+}
+
+.bg-color-five {
+  background-image: radial-gradient(
+    circle at 50% -20.71%,
+    #fcbc4b 0,
+    #f8ae3f 16.67%,
+    #f29c30 33.33%,
+    #e8871d 50%,
+    #de7207 66.67%,
+    #d65e00 83.33%,
+    #d14c00 100%
+  );
+}
+
+.bg-color-six {
+  background-image: radial-gradient(
+    circle at 50% -20.71%,
+    #fbe2d5 0,
+    #fadace 10%,
+    #f9d2c7 20%,
+    #f7c9c1 30%,
+    #f5c0bb 40%,
+    #f2b5b5 50%,
+    #eeabb1 60%,
+    #eaa1ae 70%,
+    #e699ae 80%,
+    #e091af 90%,
+    #da8bb1 100%
+  );
+}
+
+/* ------------------- Tamaños de texto */
+
+.fz-small {
+  font-size: var(--font-small);
+}
+
+.fz-sm {
+  font-size: var(--font-sm);
+}
+
+.fz-medium {
+  font-size: var(--font-medium);
+}
+
+.fz-big {
+  font-size: var(--font-big);
+}
+
+.fz-full {
+  font-size: var(--font-full);
+}
+
+/* ------------------- @media */
+@media (min-width: 420px) {
+  .cell-md {
+    width: 50%;
+    min-height: 20vh;
+  }
+}
+
+@media (min-width: 768px) {
+  .content-right {
+    width: 100%;
+  }
+  .cell-lg {
+    width: 50%;
+    min-height: 20vh;
+  }
+  .cell-full {
+    width: 100%;
+    min-height: 20vh;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    width: 100rem;
+  }
+  .content-left {
+    width: 50%;
+  }
+  .content-right {
+    width: 50%;
+  }
+  .fz-full {
+    font-size: var(--font-doublefull);
+  }
+}
