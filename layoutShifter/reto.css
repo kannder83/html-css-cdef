@@ -11,7 +11,8 @@
   --font-medium: 3rem;
   --font-big: 5rem;
   --font-title: 3.5rem;
-  --font-full: 10rem;
+  --font-full: 8rem;
+  --font-doublefull: 20rem;
 }
 
 * {
@@ -71,7 +72,17 @@ html {
   font-size: var(--font-small);
 }
 
-/* seccion main */
+/* ------------------------- seccion main */
+
+.title-one {
+  color: var(--color-three);
+  text-transform: capitalize;
+}
+.title-two {
+  color: var(--color-two);
+  font-style: italic;
+  text-decoration: underline;
+}
 
 .cell {
   width: 100%;
@@ -87,7 +98,7 @@ html {
   justify-content: space-between;
 }
 
-/* ------------------- Seccion footer */
+/* ------------------------ Seccion footer */
 .box-footer {
   width: 100%;
   min-height: 15vh;
@@ -206,5 +217,8 @@ a {
 @media (min-width: 1024px) {
   .container {
     width: 100rem;
+  }
+  .fz-full {
+    font-size: var(--font-doublefull);
   }
 }
