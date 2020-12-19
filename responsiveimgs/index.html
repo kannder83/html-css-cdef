@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./main.css" />
+    <title>Medidas: Max/Min</title>
+  </head>
+  <body>
+    <main>
+      <!-- <div class="picture">
+        <img src="./img/rough-horn-2146181_1920.jpg" alt="" />
+      </div> -->
+
+      <picture>
+        <source
+          media="(min-width: 1300px)"
+          srcset="./img/rough-horn-2146181_1920.jpg"
+        />
+        <source
+          media="(min-width: 1000px)"
+          srcset="./img/rough-horn-2146181_1280.jpg"
+        />
+        <img
+          src="./img/rough-horn-2146181_640.jpg"
+          alt="Es una imagen de montaña."
+        />
+      </picture>
+    </main>
+    <section>
+      <form action="">
+        <label for="fecha">
+          <span>fecha</span>
+          <input type="datetime-local" id="fecha" />
+        </label>
+      </form>
+    </section>
+  </body>
+</html>
